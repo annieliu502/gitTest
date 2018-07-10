@@ -16,42 +16,6 @@ scp root@192.168.1.111:/usr/local/tools/zookeeper/zookeeper-3.4.12.tar.gz  /User
 
 tar -zxvf zookeeper-3.4.9.tar.gz
 
-4、关闭防火墙
-
-https://blog.csdn.net/u011846257/article/details/54707864
-
-5、端口问题
-
-https://blog.csdn.net/u011846257/article/details/54707864
-
-https://blog.csdn.net/u010085423/article/details/78157091
-
-firewall-cmd --query-port=8082/tcp
-
-firewall-cmd --add-port=8082/tcp
-
-6、安装 jdk
-
-https://www.cnblogs.com/cstzhou/p/4555423.html
-
-7、修改文件
-
-https://zhidao.baidu.com/question/620155720674640652.html
-
-8、退出ping
-https://zhidao.baidu.com/question/14843356.html
-
-9、安装 vim
-https://blog.csdn.net/shenzhen_zsw/article/details/77844477
-
-10、更改文件名
-https://blog.csdn.net/id19870510/article/details/5701227
-
-11、服务器之间的文件复制
-
-scp -r /root/lk root@43.224.34.73:/home/lk/cpfile
-
-https://www.cnblogs.com/likui360/p/6011769.html
 
 
 
